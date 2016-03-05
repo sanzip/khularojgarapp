@@ -1,0 +1,94 @@
+
+<html>
+    <head>
+
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="jquery-mobile/jquery.mobile-1.4.3.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script src="jquery-mobile/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <script src="jquery-mobile/jquery.mobile-1.4.3.min.js" type="text/javascript"></script>
+        <script src="jquery-mobile/jquery.validate.min.js" type="text/javascript"></script>
+        <title>खुला रोजगार</title>
+
+
+    </head>
+    <body>
+
+    <!-- Home Screen -->
+    <div id="homepage" data-role="page" >
+
+    <div data-role="header" data-position="fixed" style="background-color: lavender">
+        <h1>Rojgar</h1>
+    </div>
+
+    <div data-role="content">
+        <img src="" alt="logo here">
+        <br>
+        <br><br>
+        <ul class="dashboard">
+            <li class="WorkWrap"><a id="btnworkList" href="#newsfeed" data-transition="pop" ><img src="" alt="work"/> </a></li>
+            <li class="trainWrap"><a href="#newsfeed"  id="btntrainList" data-transition="pop"><img src="" alt="train"/> </a></li>
+
+
+        </ul>
+    </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>@rojar Team</h1>
+        </div>
+
+    </div>
+
+
+
+    <!-- Home Screen -->
+    <!-- news feed -->
+    <div id="newsfeed" data-role="page" >
+
+        <div data-role="header" data-position="fixed">
+            <h1>jobs news</h1>
+        </div>
+
+        <div data-role="content">
+            <ul id="newslist" data-role="listview" data-filter="true"></ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>@rojar Team</h1>
+        </div>
+        <div data-role="popup" id="newsListPopup" data-overlay-theme="a" data-theme="a" class="ui-corner-all" data-phone="">
+            <a href="#" data-rel="back" data-role="button" data-theme="a"  data-iconpos="notext" class="ui-btn-right">Close</a>
+            <div data-role="content" role="banner" data-theme="d" class="ui-corner-bottom ui-content phonebook-popup">
+
+                <table cellpadding="0" cellspacing="0"  >
+                    <tr>
+
+                        <td><a href="#" id="btnApply"><img src="images/apply.png" width="50px" height="50px"></a></td>
+
+
+                    </tr>
+                    <tr>
+
+                        <td align="center">Delete</td>
+
+
+
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <!--news feed -->
+
+    <script type="text/javascript" src="js/newsfeed.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+        app.initialize();
+    </script>
+
+    </body>
+</html>

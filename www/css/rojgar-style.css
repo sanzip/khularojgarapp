@@ -1,0 +1,24 @@
+
+    ul.dashboard li.icon-dash-contact {width: 49%;}
+    ul.dashboard li.icon-dash-search{width: 49%;}
+    ul.dashboard li.icon-dash-group {width: 49%;}
+    ul.dashboard li.icon-dash-share {width: 49%;}
+    /*ul.dashboard li.icon-dash-setting{ width:98.7%;}*/
+    ul.dashboard li.icon-dash-setting{ width:49%;}
+    ul.dashboard li.icon-dash-panic{ width:49%;}
+
+    ul.dashboard li.contactWrap {width: 49%;}
+    ul.dashboard li.searchWrap{width: 49%;}
+    ul.dashboard li.groupWrap {width: 49%;}
+    ul.dashboard li.shareWrap {width: 49%;}
+    /*ul.dashboard li.settingWrap{ width:98.7%;}*/
+    ul.dashboard li.panicWrap{ width:49%;}
+    ul.dashboard li.settingWrap{ width:49%;}
+
+    #btnContactList >img { height:80px;}
+    #btnSearchList >img { height:80px;}
+    #btnGroupList >img { height:80px;}
+    #btnShareList >img { height:80px;}
+    #btnSettings >img { height:80px;}
+    #btnPanic >img { height:80px;}
+    #btnPanic1 >img { height:80px;}

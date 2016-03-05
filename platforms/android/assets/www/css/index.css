@@ -1,0 +1,16 @@
+ul.dashboard{display:block; padding:0; margin:0;}
+ul.dashboard li{text-align:center; list-style:none; text-align:center; border:1px solid #c6eff3; background:rgba(255, 255, 255, 0.7);}
+ul.dashboard li:hover{background-color: rgb(209, 179, 255)
+}
+ul.dashboard li.icon-dash-contact{ float:left; width:50%; border-bottom:none; border-radius: 15px 0 0 0;}
+ul.dashboard li.icon-dash-search{float:left; width:49%; border-left:none;border-bottom:none; border-radius: 0 15px 0 0; }
+
+ul.dashboard li.workWrap{ float:left; width:50%; border-bottom:none; border-radius: 15px 0 0 0; padding: 50px 0;}
+ul.dashboard li.trainWrap{float:left; width:49%; border-left:none;border-bottom:none; border-radius: 0 15px 0 0;padding:50px 0; }
+
+
+
+ul.dashboard li.icon-dash-contact a{ display:block; height:185px; width:140px; margin:0 auto; background-position:30px 35px;}
+ul.dashboard li.icon-dash-search a{ display:block; height:185px; width:140px; margin:0 auto; background-position:30px -1221px;}
+.header1{
+    background-color: blue;}

@@ -4,7 +4,7 @@
 $("#btnworkList").on("click", function(e) {
     $('#newsList').html('');
     var data= {
-        type:"Work"};
+        Type:"Work"};
 
     Getnewslistfromserver(data);
 
@@ -12,7 +12,7 @@ $("#btnworkList").on("click", function(e) {
 $("#btntrainList").on("click", function(e) {
     $('#newsList').html('');
     var data= {
-        type:"Work"};
+        type:"Train"};
 
     Getnewslistfromserver(data);
 
@@ -77,5 +77,21 @@ function Getnewslistfromserver(data)
     });
 
 
+
+}
+function submitRecord(){
+
+    var data = $("#applyForm").serialize();
+    $.ajax({
+        type:"POST",
+        url:"saveResponse.php",
+        data:data,
+        success:function(data){
+            alert('Successfully Applied.');
+        },
+        error:function(er){}
+
+    });
+    return false;
 
 }
